@@ -35,7 +35,7 @@ Then ask things like "audit my Tinder profile", "write my Hinge prompts", "what 
 
 ## Credits
 
-Research and data sources are listed at the end of `SKILL.md`. Some practitioner frameworks (profile as landing page, photo scorecard, four-part bio, short texting sequence) are adapted and rewritten from dating-coach material by Dating By Blaine. This project is not affiliated with or endorsed by Dating By Blaine, Tinder, Hinge, Bumble, Match Group or any other company mentioned.
+Research and data sources are listed at the end of `SKILL.md`. Some practitioner frameworks (profile as landing page, photo scorecard, four-part bio, short texting sequence) are adapted and rewritten from dating-coach material by Dating By Blaine and Eduard Andrei (Zoomology). This project is not affiliated with or endorsed by Dating By Blaine, Eduard Andrei, Zoomology, Tinder, Hinge, Bumble, Match Group or any other company mentioned.
 
 ## License
 

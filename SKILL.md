@@ -596,7 +596,7 @@ With a reset, everything after the shoot shifts by at least 3 months; use the wa
 - MSM Coretech — how dating app algorithms work (secondary; its Elo claim contradicts Tinder): https://msmcoretech.com/blogs/how-do-dating-app-algorithms-work
 - SwipeStats — opener flowchart (Miro board linked from the pick-up lines article; practitioner examples, rewritten)
 - Erica Dhawan — *Digital Body Language* (book, practitioner)
-- Practitioner frameworks (profile as landing page, photo scorecard, four-part bio, short texting sequence) adapted and rewritten from dating-coach material by Dating By Blaine; not affiliated or endorsed.
+- Practitioner frameworks (profile as landing page, photo scorecard, four-part bio, short texting sequence) adapted and rewritten from dating-coach material by Dating By Blaine and Eduard Andrei (Zoomology); not affiliated or endorsed.
 
 ## Guardrails
 
