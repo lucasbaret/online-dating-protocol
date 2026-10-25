@@ -338,6 +338,45 @@ Nothing to say even after looking? Don't message. Never: "Hey beautiful", "What'
 
 **Signature move.** Build one from the user's real skill. A musician: once on WhatsApp or Instagram, a 15-second voice note playing her song in his style. A cook: a photo of the dish she mentioned. Nobody else can copy it.
 
+### Handling her replies (branching)
+
+Scripts fail when they ignore what she actually says. Use this map to choose the next message, and always reply to her words first.
+
+```mermaid
+flowchart TD
+  A["Icebreaker: detail from her profile + question"] --> B{"Her reply"}
+  B -->|"Engaged answer"| C["Connection message: acknowledge + share + open question"]
+  C --> D["Invite: specific activity + ask for her number"]
+  B -->|"Short / one word"| E["One playful follow-up tied to her profile"]
+  E -->|"Warms up"| C
+  E -->|"Still flat"| X["Let it go"]
+  B -->|"I don't meet strangers"| F["Light tease, no pressure + one non-basic question"]
+  F --> C
+  B -->|"No reply"| G["One light nudge after 3-5 days"]
+  G -->|"Nothing"| X
+  D -->|"Yes"| H["Text: day + place, confirm on the day"]
+  D -->|"Hesitant"| I["Offer a short call, then re-invite once"]
+```
+
+| Situation | Move | Example |
+| --- | --- | --- |
+| A place in her photos | Ask where it is, react with something you know about it, then ask her opinion | "That spot in your 2nd photo looks great, where is it?" → "I've heard their desserts are worth the trip. True?" |
+| She hasn't really been there | Tease lightly, then guess one of her tastes from her profile | "So you just borrowed the view for the photo? ;) You look like a sushi person to me." |
+| Her taste confirmed | Turn it into a concrete plan | "Then I know a place you'd like. Free this weekend?" |
+| The plan doesn't suit her ("I don't drink coffee") | Swap the activity playfully, keep the momentum | "Tea person? This changes everything. OK, what would you eat every day for the rest of your life?" |
+| "I don't go out with strangers" | Agree, flip it with humour, ask a question that makes her think, invite later | "Fair. I haven't decided if I'm sharing my favourite spot with you either. Dream dinner guest, dead or alive?" |
+| He is travelling or new in town | Ask a local for recommendations; it naturally becomes "show me" | "I'm here for two weeks. Where would you take a friend for a drink?" |
+| She is the one who's new in town | Offer your best local recommendation, then offer to show it | "Newcomer tip: {PLACE} at sunset. Even better with a guide." |
+
+**Cold reading** (guessing a taste or a story from her profile) works because it is playful and easy to answer. Ground it in her photos, bio or interests, never in her looks or ethnicity.
+
+**Anti-patterns found in popular opener scripts:**
+
+- Opening on a physical compliment ("You have a beautiful smile…"): physical compliments fall under 20 % reply rate.
+- Calling her "exotic" or commenting on her origins: never.
+- Jokes about safety ("You seem like you won't kidnap me"): women's safety concerns are real; skip them.
+- Pushing through a non-reply or a flat answer more than once.
+
 ### Connection message (1-2 maximum)
 
 1. Acknowledge what she said (optional) so she feels heard.
@@ -555,6 +594,7 @@ With a reset, everything after the shoot shifts by at least 3 months; use the wa
 - Statista — how US heterosexual couples meet: https://www.statista.com/chart/20822/way-of-meeting-partner-heterosexual-us-couples/
 - Gitnux — height dating statistics (aggregator, unverified): https://gitnux.org/height-dating-statistics/
 - MSM Coretech — how dating app algorithms work (secondary; its Elo claim contradicts Tinder): https://msmcoretech.com/blogs/how-do-dating-app-algorithms-work
+- SwipeStats — opener flowchart (Miro board linked from the pick-up lines article; practitioner examples, rewritten)
 - Erica Dhawan — *Digital Body Language* (book, practitioner)
 - Practitioner frameworks (profile as landing page, photo scorecard, four-part bio, short texting sequence) adapted and rewritten from dating-coach material by Dating By Blaine; not affiliated or endorsed.
 
